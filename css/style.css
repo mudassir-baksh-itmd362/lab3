@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    color: #40bce5;
+    border-style: solid;
+} 
+
+#content {
+    border-style: groove;
+    border-color: rgb(211, 170, 170);
+    padding: 15px;
+    border-radius: 10px
+}
+
+form h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+form p {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+input[type="email"]{
+    background-color: rgba(30, 3, 3, 0.253);
+}
+
+label[for="age-verification"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    width: 38%;
+    display: block;
+    margin: auto;
+    width: auto;
+    background-color: #40bce5;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px
+}
+
+@media (min-width: 752px) {
+  form {
+    width: fit-content;
+    min-width: 90%;
+  }
+  input[type="submit"] {
+    width: 100%;
+  }
+}
