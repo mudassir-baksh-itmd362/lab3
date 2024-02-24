@@ -1,14 +1,14 @@
 body {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 form {
     color: #40bce5;
     border-style: solid;
-} 
+}
 
 #content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-style: groove;
     border-color: rgb(211, 170, 170);
     padding: 15px;
