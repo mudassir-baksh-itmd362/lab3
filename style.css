@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    color: #40bce5;
+    border-style: solid;
+} 
+#content {
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+form h1 {
+    font-size: 35px;
+}
+input[type="email"] {
+    background-color: rgb(164, 156, 156);
+}
+
+label[for="age-verification"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1, p {
+    padding: 25px;
+}
+
+input[type="submit"] {
+    width: 38%;
+    display: block;
+    margin: auto;
+    width: 400px;
+    background-color: #40bce5;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px
+}
