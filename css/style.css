@@ -3,16 +3,17 @@ body {
 }
 
 form {
-    color: #40bce5;
     border-style: solid;
 }
 
 #content {
+    margin: 130px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-style: groove;
-    border-color: rgb(211, 170, 170);
     padding: 15px;
-    border-radius: 10px
+    border: none
 }
 
 form h1 {
@@ -25,7 +26,10 @@ form p {
 }
 
 input[type="email"]{
-    background-color: rgba(30, 3, 3, 0.253);
+    background-color: rgba(131, 105, 105, 0.253);
+    border: none;
+    
+    
 }
 
 label[for="age-verification"] {
@@ -38,9 +42,8 @@ input[type="submit"] {
     display: block;
     margin: auto;
     width: auto;
-    background-color: #40bce5;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px
+    border: none
 }
 
 @media (min-width: 752px) {
