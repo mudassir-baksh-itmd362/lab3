@@ -2,11 +2,9 @@ body {
     text-align: center;
 }
 
-form {
-    border-style: solid;
-}
-
 #content {
+    align-self: center;
+    width: 100%;
     margin: 130px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,9 +25,7 @@ form p {
 
 input[type="email"]{
     background-color: rgba(131, 105, 105, 0.253);
-    border: none;
-    
-    
+    border: none;  
 }
 
 label[for="age-verification"] {
@@ -55,3 +51,13 @@ input[type="submit"] {
     width: 100%;
   }
 }
+
+@media (max-width: 752px) {
+    form {
+      width: fit-content;
+      min-width: 90%;
+    }
+    input[type="submit"] {
+      width: 100%;
+    }
+  }
